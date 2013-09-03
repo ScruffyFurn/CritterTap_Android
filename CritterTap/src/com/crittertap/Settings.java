@@ -63,7 +63,7 @@ public class Settings {
 		}
 	}
 	
-	public static void azureSetup(MobileServiceClient mClient){
+	public static void globalHighScoreSetup(MobileServiceClient mClient){
 		mobileClient = mClient;
 		
 		mobileClient.getTable(GlobalHighScore.class).orderBy(
